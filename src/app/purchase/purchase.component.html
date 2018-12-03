@@ -1,0 +1,18 @@
+
+
+              <form>
+                <div class="container">
+                  <label for="id"><b>Id</b></label><br>
+                  <input type="number"  name="id" [(ngModel)]="id" class="input" required><br>
+                  <label for="supplier"><b>Supplier</b></label><br>
+                  <input type="text"  name="supplier" [(ngModel)]="supplier" class="input" required><br>
+                  <label for="itemname"><b>Item Name</b></label><br>
+                  <input type="text"  name="itemname" [(ngModel)]="itemname" class="input" required><br>
+                  <label for="quantity"><b>Quantity</b></label><br>
+                  <input type="number"  name="quantity" [(ngModel)]="quantity" class="input" required><br>
+                  <label for="billdate"><b>Bill_Date</b></label><br>
+                  <input type="Date"  name="billdate" [(ngModel)]="billdate" class="input" required><br>
+              
+                  <button type="submit" (click)="addPurchase()" class="purchasebtn">add purchase</button>
+                </div>
+              </form>

@@ -1,0 +1,21 @@
+#wrapper {
+    border:1px solid #6666;
+}
+.fields{
+display:flex;
+justify-content: center;
+align-items: center;
+margin: 5px;
+}
+.input{
+    padding: 5px;
+    width: 30%;
+    height: 20px;
+}
+#loginbtn{
+    padding: 5px;
+    background-color: darkcyan;
+    color: white;
+    width: 15%;
+    height: 30px;
+}

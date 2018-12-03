@@ -1,0 +1,17 @@
+
+<form>
+    <div class="container">
+      <label for="id"><b>Id</b></label><br>
+      <input type="number"  name="id" [(ngModel)]="id" class="input" required><br>
+      <label for="customer"><b>Customer</b></label><br>
+      <input type="text"  name="customer" [(ngModel)]="customer" class="input" required><br>
+      <label for="itemname"><b>Item Name</b></label><br>
+      <input type="text"  name="itemname" [(ngModel)]="itemname" class="input" required><br>
+      <label for="quantity"><b>Quantity</b></label><br>
+      <input type="number"  name="quantity" [(ngModel)]="quantity" class="input" required><br>
+      <label for="billdate"><b>Bill_Date</b></label><br>
+      <input type="Date"  name="billdate" [(ngModel)]="billdate" class="input" required><br>
+  
+      <button type="submit" (click)="addSales()" class="salesbtn">add Sales</button>
+    </div>
+  </form>

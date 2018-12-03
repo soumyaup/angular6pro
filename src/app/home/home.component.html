@@ -1,0 +1,14 @@
+
+<div id="Wrapper" style="margin-top:200px">
+  <div class="fields">
+      <label>Username:</label><br>
+      <input type="text" placeholder="Username" name="username" [(ngModel)]="username" class="input" >
+  </div>
+  <div class="fields">
+      <label>Password:</label><br>
+      <input type="password" placeholder="Password" name="password" [(ngModel)]="password" class="input">
+  </div>
+  <div class="fields">
+      <button (click)="login()" id="loginbtn">Login</button>
+  </div>
+</div>
